@@ -1,0 +1,25 @@
+{
+  "name": "@shababulalam/vue2-expand-on-tap",
+  "version": "1.0.0",
+  "description": "Expand section on tap build with Vue 2 ✨",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShababulAlam/vue2-expand-on-tap.git"
+  },
+  "keywords": [
+    "collapsable",
+    "vue2",
+    "expand",
+    "tap"
+  ],
+  "author": "@shababulalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShababulAlam/vue2-expand-on-tap/issues"
+  },
+  "homepage": "https://github.com/ShababulAlam/vue2-expand-on-tap#readme"
+}
