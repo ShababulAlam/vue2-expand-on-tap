@@ -1,6 +1,6 @@
 {
-  "name": "vue2-expand-on-tap",
-  "version": "0.1.0",
+  "name": "@shababul_alam/vue2-expand-on-tap",
+  "version": "1.2.0",
   "main": "dist/expandontap.common.js",
   "files": [
     "dist/*",
@@ -12,6 +12,16 @@
     "build": "vue-cli-service build --target lib --name expandontap ./src/components/ExpandOnTap.vue",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShababulAlam/vue2-expand-on-tap.git"
+  },
+  "author": "@shababulalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShababulAlam/vue2-expand-on-tap/issues"
+  },
+  "homepage": "https://github.com/ShababulAlam/vue2-expand-on-tap#readme",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
