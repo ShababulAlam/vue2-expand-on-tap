@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "Expand section on tap build with Vue 2 ✨",
   "main": "index.js",
+  "module": "dist/my-component.esm.js",
+  "unpkg": "dist/my-component.min.js",
+  "browser": {
+    "./sfc": "src/my-component.vue"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/my-component.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/my-component.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/my-component.min.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +29,13 @@
   "bugs": {
     "url": "https://github.com/ShababulAlam/vue2-expand-on-tap/issues"
   },
-  "homepage": "https://github.com/ShababulAlam/vue2-expand-on-tap#readme"
+  "homepage": "https://github.com/ShababulAlam/vue2-expand-on-tap#readme",
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
