@@ -5,7 +5,7 @@
       <div
         v-if="!expandDetailsSection"
         class="absolute bottom-0 w-full bg-gradient-fade flex justify-center"
-        :style="exapndOpenSectionStyle"
+        :style="expandOpenSectionStyle"
         role="button"
         @click="
           () => {
@@ -37,7 +37,7 @@
       <div
         v-else
         class="w-full flex justify-center"
-        :style="exapndCloseSectionStyle"
+        :style="expandCloseSectionStyle"
         role="button"
         @click="
           () => {
@@ -93,11 +93,11 @@ export default {
       type: Number,
       default: 120,
     },
-    exapndOpenSectionStyle: {
+    expandOpenSectionStyle: {
       type: String,
       default: "",
     },
-    exapndCloseSectionStyle: {
+    expandCloseSectionStyle: {
       type: String,
       default: "",
     },
