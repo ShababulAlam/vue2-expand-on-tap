@@ -1,6 +1,6 @@
 {
   "name": "@shababul_alam/vue2-expand-on-tap",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "dist/expandontap.common.js",
   "files": [
     "dist/*",
