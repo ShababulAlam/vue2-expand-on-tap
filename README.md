@@ -1,24 +1,19 @@
-# vue2-expand-on-tap
 
-## Project setup
-```
-pnpm install
-```
+#  Vue Expand On Tap :sparkles:
+## _Hassle free expand/close sections on tap :fire:_
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+The only component you need for the read more and other expandable section in you vue.js application.
 
-### Compiles and minifies for production
-```
-pnpm run build
-```
+## :memo: Usage
 
-### Lints and fixes files
-```
-pnpm run lint
-```
+| Props | Value | Description |
+|--|--|--|
+|  placeholderExpanded| String | Text to be shown in expand section closed state *`default: Tap to open`*  |
+|  placeholderClosed| String | Text to be shown in expand section opened state *`default: Tap to close`*  |
+|  previewHeight| Number | The preview height in px *`default: 120px`*   |
+|  expandOpenSectionStyle| String |   'Tap to open' section style |
+|  expandCloseSectionStyle| String |  'Tap to close' section style |
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ **:construction: This package is in progress and I am building it in between my working hours , mostly in weekends. So I get a very little time to work on it. Kindly keep it in consideration and also this is my first package so many issues will arise and fixes are needed. Kindly PR on any issues. I might add your code, who knows? Happy coding :technologist:** 
+ 
+ **:bookmark:Thanks in advance**
