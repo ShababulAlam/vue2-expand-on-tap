@@ -7,6 +7,16 @@
     "*.js",
     "*.json"
   ],
+  "keywords": [
+    "collapsable",
+    "vue2",
+    "expand",
+    "tap",
+    "expandable",
+    "expand on tap",
+    "tap to expand",
+    "read more"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name expandontap ./src/components/ExpandOnTap.vue",
