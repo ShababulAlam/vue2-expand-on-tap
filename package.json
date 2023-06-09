@@ -1,5 +1,5 @@
 {
-  "name": "vue2-expand-on-tap",
+  "name": "@shababul_alam/vue2-expand-on-tap",
   "version": "1.2.5",
   "description": "An expand on tap component for vue.js.",
   "main": "dist/expand-on-tap.umd.min.js",
@@ -61,6 +61,16 @@
     },
     "rules": {}
   },
+  "keywords": [
+    "collapsable",
+    "vue2",
+    "expand",
+    "tap",
+    "expandable",
+    "expand on tap",
+    "tap to expand",
+    "read more"
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions",
