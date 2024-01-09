@@ -113,7 +113,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
